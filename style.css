@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #65b5ce;
+    color: #000000;
+}
+
+header {
+    background-color: #2422af;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 1em 0;
+}
+
+section#home {
+    background: url('campo-cidade.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 4em 2em;
+}
+
+section#home h2, section#home p {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 1em;
+}
+
+section#projects .project {
+    background-color: #fff;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea, form button {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #2422af;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2422af;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #2422af;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
